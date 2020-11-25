@@ -1,9 +1,9 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/ProductCatalog
+    working_directory: ~/lab05
     docker:
-      - image: circleci/android:api-28-alpha
+      - image: circleci/android:api-30-alpha
     environment:
       JVM_OPTS: -Xmx3200m
     steps:
